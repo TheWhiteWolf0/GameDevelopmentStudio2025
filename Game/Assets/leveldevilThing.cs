@@ -15,7 +15,6 @@ public class leveldevilThing : MonoBehaviour
         if (collision.gameObject.CompareTag("PlayerOne") || (collision.gameObject.CompareTag("PlayerTwo")))
         {
             Debug.Log("Player entered the trigger-sliding floor");
-            Debug.Log("Visual studio code workS!!!??");
 
             //
 
