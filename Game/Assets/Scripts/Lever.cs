@@ -10,6 +10,8 @@ public class Lever : MonoBehaviour
 
     public KeyCode Intreact;
 
+    //public GameObject leverRotate;
+
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -45,6 +47,8 @@ public class Lever : MonoBehaviour
         if (canInteract && Input.GetKeyDown(Intreact))
         {
             toggleObj();
+
+            //leverRotate.transform.Rotate(Vector3.forward * 100f * Time.deltaTime);
         }
 
 

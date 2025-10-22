@@ -7,6 +7,8 @@ public class CamerControl : MonoBehaviour
 
     public GameObject playerOneCam;
 
+    public GameObject playerTwoCam;
+
     public GameObject canvasBorder;
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -19,6 +21,15 @@ public class CamerControl : MonoBehaviour
             //canvasBorder.SetActive(false);
 
         }
+
+        if (collision.gameObject.CompareTag("PlayerTwo"))
+        {
+            playerTwoCam.SetActive(false);
+
+            staticCam.SetActive(true);
+        }
+
+        
     }
 
     void OnTriggerExit2D(Collider2D collision)
@@ -31,6 +42,16 @@ public class CamerControl : MonoBehaviour
 
             //canvasBorder.SetActive(true);
         }
+
+        if (collision.gameObject.CompareTag("PlayerTwo"))
+        {
+            playerOneCam.SetActive(true);
+
+            staticCam.SetActive(false);
+            
+        }
+
+        
     }
 
 

@@ -7,7 +7,7 @@ public class leveldevilThing : MonoBehaviour
     public GameObject slidingFloor;
     public GameObject tarPosition;
 
-    public Vector2 thingThing;
+    //public Vector2 thingThing;
     //public GameObject targetPosition;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -57,8 +57,8 @@ public class leveldevilThing : MonoBehaviour
     private void thing()
     {
         //thingThing = new Vector2();
-        Vector2 startPosition = slidingFloor.transform.position;
+        //Vector2 startPosition = slidingFloor.transform.position;
         //Vector2 thingEnd = thingThing;
-        transform.position = Vector2.Lerp(startPosition, thingThing, smoothingSpeed * Time.deltaTime);
+        //transform.position = Vector2.Lerp(startPosition, thingThing, smoothingSpeed * Time.deltaTime);
     }
 }
