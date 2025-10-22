@@ -42,6 +42,7 @@ public class JointCamerControl : MonoBehaviour
             staticCam.SetActive(false);
             canvasBorder.SetActive(true);
             playerOneCam.SetActive(true);
+            playerTwoCam.SetActive(true);
 
         }
 
@@ -52,6 +53,7 @@ public class JointCamerControl : MonoBehaviour
             staticCam.SetActive(false);
             canvasBorder.SetActive(true);
             playerTwoCam.SetActive(true);
+            playerOneCam.SetActive(true);
         }
     }
 
