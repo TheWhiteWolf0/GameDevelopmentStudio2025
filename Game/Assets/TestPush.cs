@@ -24,8 +24,8 @@ public class TestPush : MonoBehaviour
                 Debug.Log("Is Pushing");
                 //pushBox.transform.position = PushCheck.transform.position;
                 //rb.constraints = RigidbodyConstraints2D.FreezePositionX;
-                Vector2 startPosition = PushCheck.transform.position;
-                Vector2 endPosition = pushBox.transform.position;
+                Vector2 startPosition = pushBox.transform.position;
+                Vector2 endPosition = PushCheck.transform.position;
                 transform.position = Vector2.Lerp(startPosition, endPosition, 100 * Time.deltaTime);
             }
 
@@ -39,7 +39,7 @@ public class TestPush : MonoBehaviour
     private bool canPush()
     {
         Debug.Log("Player exited the Push-Trigger");
-        return Physics2D.OverlapCircle(PushCheck.position, 1f, pushLayer);
+        return Physics2D.OverlapCircle(PushCheck.position, 0.4f, pushLayer);
     }
     
 
