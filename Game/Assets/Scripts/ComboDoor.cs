@@ -7,7 +7,7 @@ public class ComboDoor : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Check if the colliding object is the player
-        if (collision.gameObject.CompareTag("PlayerOne"))
+        if (collision.gameObject.CompareTag("PlayerOne") || collision.gameObject.CompareTag("PlayerTwo"))
         {
             Debug.Log("Player entered the trigger");
 
@@ -19,7 +19,7 @@ public class ComboDoor : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("PlayerOne"))
+        if (collision.gameObject.CompareTag("PlayerOne")|| collision.gameObject.CompareTag("PlayerTwo"))
 
             Debug.Log("Player has left the trigger");
 
