@@ -19,7 +19,7 @@ public class ComboDoor : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("PlayerOne")|| collision.gameObject.CompareTag("PlayerTwo"))
+        if (collision.gameObject.CompareTag("PlayerOne") || collision.gameObject.CompareTag("PlayerTwo"))
 
             Debug.Log("Player has left the trigger");
 
