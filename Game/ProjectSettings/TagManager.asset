@@ -8,6 +8,7 @@ TagManager:
   - PlayerTwo
   - Ladder
   - ButtonTag1
+  - Box
   layers:
   - Default
   - TransparentFX
