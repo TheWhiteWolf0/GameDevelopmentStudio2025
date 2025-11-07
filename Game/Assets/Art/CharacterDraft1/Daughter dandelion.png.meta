@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Daughter dandelion_0: -2555502898145104544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
