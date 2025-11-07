@@ -16,7 +16,7 @@ public class Player1Movement : MonoBehaviour
 
 
     private bool isJumping;
-    public int maxJumps = 3;
+    public int maxJumps = 2;
     private int remainingJumps;
 
     [SerializeField] private Rigidbody2D rb;
@@ -35,6 +35,12 @@ public class Player1Movement : MonoBehaviour
     {
 
         horizontal = Input.GetAxisRaw("Horizontal1");
+
+        if (isGrounded() && !Input.GetKeyDown(KeyCode.W))
+        {
+            isJumping = false;
+            remainingJumps = maxJumps;
+        }
 
         if (Input.GetKeyDown(KeyCode.W))
         {

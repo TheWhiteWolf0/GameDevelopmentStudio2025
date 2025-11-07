@@ -40,11 +40,11 @@ public class PushTestChild : MonoBehaviour
                     Vector2 direction = transform.position - pushLocation.transform.position;
                     float distance = direction.magnitude;
                 
-                    // Calculate force based on distance (stronger when closer)
+
                     float forceMultiplier = Mathf.Clamp01(1 - (distance / maxDistance));
                     float appliedForce = pullForce * forceMultiplier;
                 
-                    // Apply the force smoothly
+
                     rb.AddForce(direction.normalized * appliedForce, ForceMode2D.Force);
                 }
                     

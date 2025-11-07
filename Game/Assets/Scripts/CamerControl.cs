@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class CamerControl : MonoBehaviour
 {
-    public GameObject staticCam;
+    public GameObject staticCamOne;
+    public GameObject staticCamTwo;
+
 
     public GameObject playerOneCam;
 
@@ -17,7 +19,7 @@ public class CamerControl : MonoBehaviour
         {
             playerOneCam.SetActive(false);
 
-            staticCam.SetActive(true);
+            staticCamOne.SetActive(true);
             //canvasBorder.SetActive(false);
 
         }
@@ -26,7 +28,7 @@ public class CamerControl : MonoBehaviour
         {
             playerTwoCam.SetActive(false);
 
-            staticCam.SetActive(true);
+            staticCamTwo.SetActive(true);
         }
 
         
@@ -38,22 +40,18 @@ public class CamerControl : MonoBehaviour
         {
             playerOneCam.SetActive(true);
 
-            staticCam.SetActive(false);
+            staticCamOne.SetActive(false);
 
             //canvasBorder.SetActive(true);
         }
 
         if (collision.gameObject.CompareTag("PlayerTwo"))
         {
-            playerOneCam.SetActive(true);
+            Debug.Log("Help jointcamstactic");
+            playerTwoCam.SetActive(true);
 
-            staticCam.SetActive(false);
+            staticCamTwo.SetActive(false);
             
-        }
-
-        
+        }   
     }
-
-
-
 }
