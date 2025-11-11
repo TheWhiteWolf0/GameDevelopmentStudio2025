@@ -73,10 +73,14 @@ public class Player1Movement : MonoBehaviour
         if (canFlip == true)
         {
             flip();
+            Debug.Log("Helppppp");
+            speed = 8;
         }
 
         if (canFlip == false)
         {
+            Debug.Log("Helppppp2");
+            speed = 4;
             
         }
 
