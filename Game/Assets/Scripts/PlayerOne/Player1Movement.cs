@@ -23,11 +23,20 @@ public class Player1Movement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+    // Grab/Pull mechanic
+    public Transform grabDetect;
+    public float rayDis;
+    public Transform boxHolder;
+    public Rigidbody2D rbBox;
+
+    public bool canFlip = true;
+
 
 
     private void Start()
     {
-       rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
+        canFlip = true;
     }
 
     // Update is called once per frame
@@ -59,7 +68,22 @@ public class Player1Movement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
         }
 
-        flip();
+        grabPull();
+
+        if (canFlip == true)
+        {
+            flip();
+        }
+
+        if (canFlip == false)
+        {
+            
+        }
+
+
+        
+
+
     }
 
     private void FixedUpdate()
@@ -87,6 +111,39 @@ public class Player1Movement : MonoBehaviour
             transform.localScale = localScale;
         }
 
+    }
+
+    private void grabPull()
+    {
+        RaycastHit2D grabCheck = Physics2D.Raycast(grabDetect.position, Vector2.right * transform.localScale, rayDis);
+
+        if (grabCheck.collider != null && grabCheck.collider.tag == "Box")
+        {
+            if (Input.GetKey(KeyCode.E))
+            {
+                grabCheck.collider.gameObject.transform.parent = boxHolder;
+                grabCheck.collider.gameObject.transform.position = boxHolder.position;
+                rbBox = grabCheck.collider.gameObject.GetComponent<Rigidbody2D>();
+                rbBox.bodyType = RigidbodyType2D.Kinematic;
+
+                //
+
+                canFlip = false;
+            }
+
+            else
+            {
+                grabCheck.collider.gameObject.transform.parent = null;
+                rbBox = grabCheck.collider.gameObject.GetComponent<Rigidbody2D>();
+                rbBox.bodyType = RigidbodyType2D.Dynamic;
+
+                //
+
+                canFlip = true;
+                
+            }
+        }
+        
     }
 
 }
