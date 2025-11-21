@@ -8,6 +8,7 @@ public class FlowerScript : MonoBehaviour
     public int flowerCount = 3;
 
     public GameObject dissapearingObj;
+    public GameObject disFlower;
     public GameObject flower;
 
 
@@ -50,6 +51,8 @@ public class FlowerScript : MonoBehaviour
         if (canInteract && Input.GetKeyDown(Intreact) && flowerCount > 0)
         {
             toggleObj();
+            //MovePosition(.25f);
+            
 
             //leverRotate.transform.Rotate(Vector3.forward * 100f * Time.deltaTime);
         }
@@ -69,6 +72,11 @@ public class FlowerScript : MonoBehaviour
         flowerCount = flowerCount - 1;
         Debug.Log(flowerCount);
 
+    }
+
+    private void MovePosition(float amount)
+    {
+        transform.position = new Vector3 (0, amount + 0.1f, 0);
     }
 
 
