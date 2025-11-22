@@ -7,8 +7,8 @@ TagManager:
   - PlayerOne
   - PlayerTwo
   - Ladder
-  - ButtonTag1
   - Box
+  - Bridge
   layers:
   - Default
   - TransparentFX
