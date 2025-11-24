@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SlowFall : MonoBehaviour
@@ -11,6 +12,8 @@ public class SlowFall : MonoBehaviour
     public float normalLinearDamping = 0.05f;
     public float slowFallLinearDamping = 2f;
 
+    [Header("FallDamage")]
+
     [Header("Input Settings")]
     public KeyCode slowFallKey = KeyCode.DownArrow;
 
@@ -22,6 +25,10 @@ public class SlowFall : MonoBehaviour
 
     void Update()
     {
+        FallDamage();
+
+        //Debug.Log(rb.linearVelocityY);
+
         // Check if player is falling
         if (rb.linearVelocity.y < 0)
         {
@@ -30,7 +37,7 @@ public class SlowFall : MonoBehaviour
                 // Apply slowfall gravity
                 rb.gravityScale = slowFallGravity;
                 rb.linearDamping = slowFallLinearDamping;
-                
+
             }
             else
             {
@@ -45,4 +52,22 @@ public class SlowFall : MonoBehaviour
             rb.gravityScale = normalGravity;
         }
     }
+
+    public void FallDamage()
+    {
+        if (rb.linearVelocityY <= -50f)
+        {
+            Debug.Log("Died to fall damage");
+            
+        }
+    }
+
+    //void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("fallDamage"))
+        //{
+            //Debug.Log("Collision with fallGroundDamage");
+        //}
+        
+    //}
 }

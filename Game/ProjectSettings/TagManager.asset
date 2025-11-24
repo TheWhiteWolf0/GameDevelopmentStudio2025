@@ -9,6 +9,7 @@ TagManager:
   - Ladder
   - Box
   - Bridge
+  - fallDamage
   layers:
   - Default
   - TransparentFX
