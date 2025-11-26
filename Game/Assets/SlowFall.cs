@@ -13,6 +13,14 @@ public class SlowFall : MonoBehaviour
     public float slowFallLinearDamping = 2f;
 
     [Header("FallDamage")]
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private LayerMask groundLayer;
+    public float slowFallStamina = 25f;
+    public float maxSlowFallStamina = 25f;
+
+    public bool isSlowFalling = false;
+
+    public bool hitGround = false;
 
     [Header("Input Settings")]
     public KeyCode slowFallKey = KeyCode.DownArrow;
@@ -25,18 +33,22 @@ public class SlowFall : MonoBehaviour
 
     void Update()
     {
-        FallDamage();
-
         //Debug.Log(rb.linearVelocityY);
+        staminaSlowFall();
+        FallDamage();
 
         // Check if player is falling
         if (rb.linearVelocity.y < 0)
         {
-            if (Input.GetKey(slowFallKey))
+            if (Input.GetKey(slowFallKey) && slowFallStamina > 0)
             {
                 // Apply slowfall gravity
                 rb.gravityScale = slowFallGravity;
                 rb.linearDamping = slowFallLinearDamping;
+
+                //Debug.Log(rb.linearVelocityY);
+
+                isSlowFalling = true;
 
             }
             else
@@ -44,12 +56,15 @@ public class SlowFall : MonoBehaviour
                 // Back to normal gravity
                 rb.gravityScale = normalGravity;
                 rb.linearDamping = normalLinearDamping;
+
+                isSlowFalling = false;
             }
         }
         else
         {
             // Reset gravity when not falling
             rb.gravityScale = normalGravity;
+            isSlowFalling = false;
         }
     }
 
@@ -58,16 +73,26 @@ public class SlowFall : MonoBehaviour
         if (rb.linearVelocityY <= -50f)
         {
             Debug.Log("Died to fall damage");
+            Destroy(gameObject);
             
         }
     }
+    private bool isGrounded()
+    {
+        return Physics2D.OverlapCircle(groundCheck.position, .4f, groundLayer);
+    }
 
-    //void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.CompareTag("fallDamage"))
-        //{
-            //Debug.Log("Collision with fallGroundDamage");
-        //}
-        
-    //}
+    public void staminaSlowFall()
+    {
+        if (isSlowFalling && slowFallStamina > 0)
+        {
+            slowFallStamina = slowFallStamina - 10 * Time.deltaTime;
+            Debug.Log( slowFallStamina);
+        }
+
+        if (isGrounded())
+        {
+            slowFallStamina = maxSlowFallStamina;
+        }
+    }
 }

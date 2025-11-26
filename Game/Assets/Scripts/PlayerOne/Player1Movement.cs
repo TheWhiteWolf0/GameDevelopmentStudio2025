@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEngine.Rendering.DebugUI;
@@ -28,8 +29,11 @@ public class Player1Movement : MonoBehaviour
     public float rayDis;
     public Transform boxHolder;
     public Rigidbody2D rbBox;
+    public BoxCollider2D boxCo;
 
     public bool canFlip = true;
+
+    [SerializeField] private Animator animator;
 
 
 
@@ -44,6 +48,16 @@ public class Player1Movement : MonoBehaviour
     {
 
         horizontal = Input.GetAxisRaw("Horizontal1");
+        
+        if(horizontal != 0)
+        {
+            animator.SetBool("isRunning", true);
+        }
+
+        else
+        {
+            animator.SetBool("isRunning", false);
+        }
 
         if (isGrounded() && !Input.GetKeyDown(KeyCode.W))
         {
@@ -128,6 +142,10 @@ public class Player1Movement : MonoBehaviour
                 grabCheck.collider.gameObject.transform.parent = boxHolder;
                 grabCheck.collider.gameObject.transform.position = boxHolder.position;
                 rbBox = grabCheck.collider.gameObject.GetComponent<Rigidbody2D>();
+                boxCo = grabCheck.collider.gameObject.GetComponent<BoxCollider2D>();
+
+
+
                 rbBox.bodyType = RigidbodyType2D.Kinematic;
 
                 //
