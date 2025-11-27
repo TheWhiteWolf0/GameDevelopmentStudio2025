@@ -156,7 +156,7 @@ public class Player1Movement : MonoBehaviour
 
 
 
-                rbBox.bodyType = RigidbodyType2D.Dynamic;
+                rbBox.bodyType = RigidbodyType2D.Kinematic;
 
                 //
 

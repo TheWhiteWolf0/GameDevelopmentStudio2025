@@ -1,14 +1,13 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class FlowerScript : MonoBehaviour
+public class FlowerComboLock : MonoBehaviour
 {
     private bool canInteract;
 
     public int flowerCount = 3;
 
     public GameObject dissapearingObj;
-    public GameObject flower;
+    public GameObject flower1;
 
 
     public KeyCode Intreact;
@@ -67,7 +66,7 @@ public class FlowerScript : MonoBehaviour
     private void toggleObj()
     {
         dissapearingObj.SetActive(!dissapearingObj.activeSelf);
-        flower.SetActive(!flower.activeSelf);
+        flower1.SetActive(!flower1.activeSelf);
         flowerCount = flowerCount - 1;
         Debug.Log(flowerCount);
 
