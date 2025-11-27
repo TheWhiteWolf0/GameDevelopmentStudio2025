@@ -24,12 +24,15 @@ public class Player1Movement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+    [SerializeField] private BoxCollider2D bc;
+
     // Grab/Pull mechanic
     public Transform grabDetect;
     public float rayDis;
     public Transform boxHolder;
     public Rigidbody2D rbBox;
-    public BoxCollider2D boxCo;
+
+    //public FixedJoint2D tempJoint;
 
     public bool canFlip = true;
 
@@ -40,6 +43,8 @@ public class Player1Movement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        bc = GetComponent<BoxCollider2D>();
+        bc.enabled = false;
         canFlip = true;
     }
 
@@ -142,11 +147,16 @@ public class Player1Movement : MonoBehaviour
                 grabCheck.collider.gameObject.transform.parent = boxHolder;
                 grabCheck.collider.gameObject.transform.position = boxHolder.position;
                 rbBox = grabCheck.collider.gameObject.GetComponent<Rigidbody2D>();
-                boxCo = grabCheck.collider.gameObject.GetComponent<BoxCollider2D>();
+
+
+                //FixedJoint2D Joint = grabCheck.collider.gameObject.GetComponent<FixedJoint2D>();
+                //Joint.connectedBody = rb; // connect to player’s Rigidbody2D
+
+                bc.enabled = true;
 
 
 
-                rbBox.bodyType = RigidbodyType2D.Kinematic;
+                rbBox.bodyType = RigidbodyType2D.Dynamic;
 
                 //
 
@@ -158,6 +168,14 @@ public class Player1Movement : MonoBehaviour
                 grabCheck.collider.gameObject.transform.parent = null;
                 rbBox = grabCheck.collider.gameObject.GetComponent<Rigidbody2D>();
                 rbBox.bodyType = RigidbodyType2D.Dynamic;
+
+                bc.enabled = false;
+
+                //grabCheck.collider.gameObject.GetComponent<FixedJoint2D>();
+                //tempJoint.connectedBody = null;
+
+
+
 
                 //
 
