@@ -12,10 +12,6 @@ public class FlowerComboLock : MonoBehaviour
 
     public KeyCode Intreact;
 
-    //public GameObject leverRotate;
-
-
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Check if the colliding object is the player
@@ -29,6 +25,8 @@ public class FlowerComboLock : MonoBehaviour
 
         }
     }
+
+    
 
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -45,22 +43,16 @@ public class FlowerComboLock : MonoBehaviour
 
     public void Update()
     {
-        //switchOff();
         if (canInteract && Input.GetKeyDown(Intreact) && flowerCount > 0)
         {
             toggleObj();
-            //MovePosition(.25f);
-            
 
-            //leverRotate.transform.Rotate(Vector3.forward * 100f * Time.deltaTime);
         }
 
         else
         {
             
         }
-
-
 
     }
     private void toggleObj()
@@ -69,15 +61,6 @@ public class FlowerComboLock : MonoBehaviour
         flower1.SetActive(!flower1.activeSelf);
         flowerCount = flowerCount - 1;
         Debug.Log(flowerCount);
-
     }
-
-    private void MovePosition(float amount)
-    {
-        transform.position = new Vector3 (0, amount + 0.1f, 0);
-    }
-
-
-
 
 }
