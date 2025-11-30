@@ -25,6 +25,11 @@ public class SlowFall : MonoBehaviour
     [Header("Input Settings")]
     public KeyCode slowFallKey = KeyCode.DownArrow;
 
+    [Header("Respawn")]
+    public GameObject playerTwo;
+
+    public Transform platerTwoRespawn;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -73,7 +78,7 @@ public class SlowFall : MonoBehaviour
         if (rb.linearVelocityY <= -50f)
         {
             Debug.Log("Died to fall damage");
-            Destroy(gameObject);
+            playerTwo.transform.position = platerTwoRespawn.position;
             
         }
     }
