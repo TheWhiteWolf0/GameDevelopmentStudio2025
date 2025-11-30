@@ -33,7 +33,7 @@ public class FlowerScript : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("PlayerOne"))
+        if (collision.gameObject.CompareTag("PlayerOne") || collision.gameObject.CompareTag("PlayerTwo"))
         {
             Debug.Log("Player exited the trigger-Lever");
 
@@ -50,10 +50,6 @@ public class FlowerScript : MonoBehaviour
         if (canInteract && Input.GetKeyDown(Intreact) && flowerCount > 0)
         {
             toggleObj();
-            //MovePosition(.25f);
-            
-
-            //leverRotate.transform.Rotate(Vector3.forward * 100f * Time.deltaTime);
         }
 
         else
@@ -72,13 +68,5 @@ public class FlowerScript : MonoBehaviour
         Debug.Log(flowerCount);
 
     }
-
-    private void MovePosition(float amount)
-    {
-        transform.position = new Vector3 (0, amount + 0.1f, 0);
-    }
-
-
-
 
 }
