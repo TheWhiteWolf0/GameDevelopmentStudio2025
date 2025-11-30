@@ -6,7 +6,8 @@ public class FlowerComboLock : MonoBehaviour
 
     public int flowerCount = 3;
 
-    public GameObject dissapearingObj;
+    public GameObject dissapearingObjOne;
+    public GameObject dissapearingObjTwo;
     public GameObject flower1;
 
 
@@ -30,7 +31,7 @@ public class FlowerComboLock : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("PlayerOne"))
+        if (collision.gameObject.CompareTag("PlayerOne") || collision.gameObject.CompareTag("PlayerTwo"))
         {
             Debug.Log("Player exited the trigger-Lever");
 
@@ -57,7 +58,8 @@ public class FlowerComboLock : MonoBehaviour
     }
     private void toggleObj()
     {
-        dissapearingObj.SetActive(!dissapearingObj.activeSelf);
+        dissapearingObjOne.SetActive(!dissapearingObjOne.activeSelf);
+        dissapearingObjTwo.SetActive(!dissapearingObjTwo.activeSelf);
         flower1.SetActive(!flower1.activeSelf);
         flowerCount = flowerCount - 1;
         Debug.Log(flowerCount);
