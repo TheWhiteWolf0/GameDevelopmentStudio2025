@@ -29,7 +29,8 @@ public class ButtonOn : MonoBehaviour
         if (other.gameObject.CompareTag("ButtonTag1"))
         {
             //platform.SetActive(!platform.activeSelf);
-            platform.SetActive(false);
+            //platform.SetActive(false);
+            platform.SetActive(!platform.activeSelf);
         }
     }
 
@@ -37,9 +38,12 @@ public class ButtonOn : MonoBehaviour
     {
         if (other.gameObject.CompareTag("ButtonTag1"))
         {
-            platform.SetActive(true);
+            //platform.SetActive(true);
+            platform.SetActive(!platform.activeSelf);
         }
     }
+
+    
 
 
 }
