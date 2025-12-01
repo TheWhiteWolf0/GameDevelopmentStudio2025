@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      White picket fence_0: 6238131091152373341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

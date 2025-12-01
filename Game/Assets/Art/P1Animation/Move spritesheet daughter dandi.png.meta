@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Move spritesheet daughter dandi_0: -8205439846467067290
+      Move spritesheet daughter dandi_1: -6721093532489528344
+      Move spritesheet daughter dandi_10: -5467216688353382441
+      Move spritesheet daughter dandi_11: -6979359722699776095
+      Move spritesheet daughter dandi_12: 2998792641552382267
+      Move spritesheet daughter dandi_13: -1157878282180684749
+      Move spritesheet daughter dandi_14: 4399032166745850798
+      Move spritesheet daughter dandi_15: -836302755583878781
+      Move spritesheet daughter dandi_2: -3844917036095203543
+      Move spritesheet daughter dandi_3: -1212182608627415777
+      Move spritesheet daughter dandi_4: 1581219133503897274
+      Move spritesheet daughter dandi_5: -7279838395159089177
+      Move spritesheet daughter dandi_6: -101659348878149196
+      Move spritesheet daughter dandi_7: 1444437416948788814
+      Move spritesheet daughter dandi_8: -9137355228408148739
+      Move spritesheet daughter dandi_9: -2517078920821631669
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

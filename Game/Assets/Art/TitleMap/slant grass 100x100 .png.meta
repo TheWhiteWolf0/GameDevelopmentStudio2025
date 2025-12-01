@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      slant grass 100x100 _0: -9168115741634307836
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
