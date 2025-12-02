@@ -32,8 +32,6 @@ public class Player1Movement : MonoBehaviour
     public Transform boxHolder;
     public Rigidbody2D rbBox;
 
-    //public FixedJoint2D tempJoint;
-
     public bool canFlip = true;
 
     [SerializeField] private Animator animator;
@@ -47,8 +45,6 @@ public class Player1Movement : MonoBehaviour
         bc.enabled = false;
         canFlip = true;
     }
-
-    // Update is called once per frame
     void Update()
     {
 
@@ -92,15 +88,12 @@ public class Player1Movement : MonoBehaviour
         if (canFlip == true)
         {
             flip();
-            //Debug.Log("Helppppp");
             speed = 8;
         }
 
         if (canFlip == false)
         {
-            //Debug.Log("Helppppp2");
-            speed = 2;
-            
+            speed = 2; 
         }
 
 
@@ -112,8 +105,6 @@ public class Player1Movement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
-        
-        //rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
     }
 
 
@@ -148,13 +139,7 @@ public class Player1Movement : MonoBehaviour
                 grabCheck.collider.gameObject.transform.position = boxHolder.position;
                 rbBox = grabCheck.collider.gameObject.GetComponent<Rigidbody2D>();
 
-
-                //FixedJoint2D Joint = grabCheck.collider.gameObject.GetComponent<FixedJoint2D>();
-                //Joint.connectedBody = rb; // connect to player’s Rigidbody2D
-
                 bc.enabled = true;
-
-
 
                 rbBox.bodyType = RigidbodyType2D.Kinematic;
 
@@ -171,18 +156,17 @@ public class Player1Movement : MonoBehaviour
 
                 bc.enabled = false;
 
-                //grabCheck.collider.gameObject.GetComponent<FixedJoint2D>();
-                //tempJoint.connectedBody = null;
-
-
-
-
                 //
 
                 canFlip = true;
                 
             }
         }
+        
+    }
+
+    public void sunBridge()
+    {
         
     }
 
