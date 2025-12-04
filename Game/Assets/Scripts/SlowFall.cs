@@ -40,7 +40,7 @@ public class SlowFall : MonoBehaviour
     {
         //Debug.Log(rb.linearVelocityY);
         staminaSlowFall();
-        FallDamage();
+        //FallDamage();
 
         // Check if player is falling
         if (rb.linearVelocity.y < 0)
