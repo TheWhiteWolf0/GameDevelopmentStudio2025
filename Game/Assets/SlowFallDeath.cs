@@ -15,14 +15,31 @@ public class SlowFallDeath : MonoBehaviour
         //player2SlowFall = GetComponent<Rigidbody2D>();
     }
 
+    void Update()
+    {
+        //Debug.Log(player2SlowFall.linearVelocityY);
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("PlayerTwo") && player2SlowFall.linearVelocityY <= fallDamageThing)
+        if (other.gameObject.CompareTag("PlayerTwo") && player2SlowFall.linearVelocityY < fallDamageThing)
+        {
+           //Debug.Log("P2 fall Damage");
+           //PlayerTwo.transform.position = respawnPoint.position; 
+           //Debug.Log(player2SlowFall.linearVelocityY);
+
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("PlayerTwo") && player2SlowFall.linearVelocityY < fallDamageThing)
         {
            Debug.Log("P2 fall Damage");
            PlayerTwo.transform.position = respawnPoint.position; 
            Debug.Log(player2SlowFall.linearVelocityY);
 
         }
+        
     }
 }
