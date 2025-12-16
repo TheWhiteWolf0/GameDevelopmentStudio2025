@@ -38,6 +38,7 @@ public class Player2Movement : MonoBehaviour
     {
 
         horizontal = Input.GetAxisRaw("Horizontal2");
+
         if(horizontal != 0)
         {
             _animator.SetBool("isRunning", true);
@@ -46,6 +47,17 @@ public class Player2Movement : MonoBehaviour
         else
         {
             _animator.SetBool("isRunning", false);
+        }
+
+        if (rb.linearVelocityY < 0)
+        {
+            _animator.SetBool("isFloating", true);
+            _animator.SetBool("isRunning", false);
+        }
+
+        else
+        {
+            _animator.SetBool("isFloating", false); 
         }
 
 
@@ -57,7 +69,6 @@ public class Player2Movement : MonoBehaviour
                 isJumping = true;
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
                 remainingJumps--;
-
             }
 
         }
@@ -83,6 +94,7 @@ public class Player2Movement : MonoBehaviour
     private bool isGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+    
     }
 
     private void flip()
@@ -95,6 +107,11 @@ public class Player2Movement : MonoBehaviour
             transform.localScale = localScale;
         }
 
+    }
+
+    public void thing6767()
+    {
+        _animator.SetBool("isDead", false);
     }
 
 }

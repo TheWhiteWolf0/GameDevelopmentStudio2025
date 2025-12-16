@@ -30,6 +30,8 @@ public class SlowFall : MonoBehaviour
 
     public Transform platerTwoRespawn;
 
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -78,7 +80,7 @@ public class SlowFall : MonoBehaviour
         if (rb.linearVelocityY <= -50f)
         {
             Debug.Log("Died to fall damage");
-            playerTwo.transform.position = platerTwoRespawn.position;
+            //playerTwo.transform.position = platerTwoRespawn.position;
             
         }
     }

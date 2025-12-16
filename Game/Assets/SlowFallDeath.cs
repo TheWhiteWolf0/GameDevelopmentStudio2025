@@ -1,5 +1,8 @@
+using Unity.Collections;
+using Unity.VisualScripting;
 using UnityEditor.Callbacks;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class SlowFallDeath : MonoBehaviour
 {
@@ -10,36 +13,23 @@ public class SlowFallDeath : MonoBehaviour
 
     public float fallDamageThing;
 
-    void Start()
-    {
-        //player2SlowFall = GetComponent<Rigidbody2D>();
-    }
 
-    void Update()
-    {
-        //Debug.Log(player2SlowFall.linearVelocityY);
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("PlayerTwo") && player2SlowFall.linearVelocityY < fallDamageThing)
-        {
-           //Debug.Log("P2 fall Damage");
-           //PlayerTwo.transform.position = respawnPoint.position; 
-           //Debug.Log(player2SlowFall.linearVelocityY);
-
-        }
-    }
+    [SerializeField] private Animator _animator;
 
     void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("PlayerTwo") && player2SlowFall.linearVelocityY < fallDamageThing)
         {
-           Debug.Log("P2 fall Damage");
-           PlayerTwo.transform.position = respawnPoint.position; 
-           Debug.Log(player2SlowFall.linearVelocityY);
+            _animator.SetBool("isDead", true);
+            //Debug.Log("P2 fall Damage");
+            PlayerTwo.transform.position = respawnPoint.position;
+           //Debug.Log(player2SlowFall.linearVelocityY);
 
         }
-        
+    }
+
+    public void thing6767()
+    {
+        _animator.SetBool("isDead", false);
     }
 }
