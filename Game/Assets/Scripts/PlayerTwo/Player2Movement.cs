@@ -24,6 +24,9 @@ public class Player2Movement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
 
 
+    [SerializeField] private Animator _animator;
+
+
 
     private void Start()
     {
@@ -35,6 +38,17 @@ public class Player2Movement : MonoBehaviour
     {
 
         horizontal = Input.GetAxisRaw("Horizontal2");
+        if(horizontal != 0)
+        {
+            _animator.SetBool("isRunning", true);
+        }
+
+        else
+        {
+            _animator.SetBool("isRunning", false);
+        }
+
+
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {

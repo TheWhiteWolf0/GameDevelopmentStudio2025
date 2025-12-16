@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: 2ebe02c863ba06e4488f096eaf99f803
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3797527121212332056
+    second: Sprite sheet float dandi moma_0
+  - first:
+      213: -5186089440424677413
+    second: Sprite sheet float dandi moma_1
+  - first:
+      213: 1501699651252569447
+    second: Sprite sheet float dandi moma_2
+  - first:
+      213: 8584364130303236978
+    second: Sprite sheet float dandi moma_3
+  - first:
+      213: 206288398572952306
+    second: Sprite sheet float dandi moma_4
+  - first:
+      213: 4868425866245631663
+    second: Sprite sheet float dandi moma_5
+  - first:
+      213: 4254010182366800051
+    second: Sprite sheet float dandi moma_6
+  - first:
+      213: 2737325294134910899
+    second: Sprite sheet float dandi moma_7
+  - first:
+      213: 4694400141171201596
+    second: Sprite sheet float dandi moma_8
+  - first:
+      213: -4562260207553317715
+    second: Sprite sheet float dandi moma_9
+  - first:
+      213: -931666040432021465
+    second: Sprite sheet float dandi moma_10
+  - first:
+      213: 5493289736301764208
+    second: Sprite sheet float dandi moma_11
+  - first:
+      213: -1626708875312478687
+    second: Sprite sheet float dandi moma_12
+  - first:
+      213: 4451000364290943081
+    second: Sprite sheet float dandi moma_13
+  - first:
+      213: -714386570325358893
+    second: Sprite sheet float dandi moma_14
+  - first:
+      213: 8168197912249165226
+    second: Sprite sheet float dandi moma_15
+  - first:
+      213: -8554558230994154107
+    second: Sprite sheet float dandi moma_16
+  - first:
+      213: 4612233064002968373
+    second: Sprite sheet float dandi moma_17
+  - first:
+      213: -7156433537393525954
+    second: Sprite sheet float dandi moma_18
+  - first:
+      213: -6469528348834209255
+    second: Sprite sheet float dandi moma_19
+  - first:
+      213: 8383938210450252709
+    second: Sprite sheet float dandi moma_20
+  - first:
+      213: -4341373323245895620
+    second: Sprite sheet float dandi moma_21
+  - first:
+      213: -8575911835458029332
+    second: Sprite sheet float dandi moma_22
+  - first:
+      213: 5823652257502344287
+    second: Sprite sheet float dandi moma_23
+  - first:
+      213: 3339492858526061688
+    second: Sprite sheet float dandi moma_24
+  - first:
+      213: -5991361333593124943
+    second: Sprite sheet float dandi moma_25
+  - first:
+      213: -3835663868932485594
+    second: Sprite sheet float dandi moma_26
+  - first:
+      213: 9135266116439085265
+    second: Sprite sheet float dandi moma_27
+  - first:
+      213: -2518692258710146205
+    second: Sprite sheet float dandi moma_28
+  - first:
+      213: -3038979316010646849
+    second: Sprite sheet float dandi moma_29
+  - first:
+      213: -7998678289226558977
+    second: Sprite sheet float dandi moma_30
+  - first:
+      213: 6724712157046940689
+    second: Sprite sheet float dandi moma_31
+  - first:
+      213: 1745979702982267030
+    second: Sprite sheet float dandi moma_32
+  - first:
+      213: 234595111502694519
+    second: Sprite sheet float dandi moma_33
+  - first:
+      213: 6477520471478731990
+    second: Sprite sheet float dandi moma_34
+  - first:
+      213: 396755858538500175
+    second: Sprite sheet float dandi moma_35
+  - first:
+      213: 2636947489406561987
+    second: Sprite sheet float dandi moma_36
+  - first:
+      213: 3746808092036298404
+    second: Sprite sheet float dandi moma_37
+  - first:
+      213: -9215550981352509927
+    second: Sprite sheet float dandi moma_38
+  - first:
+      213: 7749805501173321066
+    second: Sprite sheet float dandi moma_39
+  - first:
+      213: -3375042343556295741
+    second: Sprite sheet float dandi moma_40
+  - first:
+      213: 6988040061922021277
+    second: Sprite sheet float dandi moma_41
+  - first:
+      213: 5960716338434568141
+    second: Sprite sheet float dandi moma_42
+  - first:
+      213: -2307280497870940597
+    second: Sprite sheet float dandi moma_43
+  - first:
+      213: 2668629509605370021
+    second: Sprite sheet float dandi moma_44
+  - first:
+      213: 2286694482392794436
+    second: Sprite sheet float dandi moma_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 169
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e72a3314397c4bc0800000000000000
+      internalID: -3797527121212332056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 45
+        width: 452
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf251a812f4708b0800000000000000
+      internalID: -5186089440424677413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_2
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 169
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765cc3060eb17d410800000000000000
+      internalID: 1501699651252569447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_3
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 45
+        width: 460
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b5451d1b9c12770800000000000000
+      internalID: 8584364130303236978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_4
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 171
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa993e9432ecd200800000000000000
+      internalID: 206288398572952306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_5
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 45
+        width: 441
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faee4e4088f109340800000000000000
+      internalID: 4868425866245631663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_6
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 171
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b82eded8b7490b30800000000000000
+      internalID: 4254010182366800051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_7
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 45
+        width: 441
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf5a9f1adeecf520800000000000000
+      internalID: 2737325294134910899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_8
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 169
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c369d007e0cd52140800000000000000
+      internalID: 4694400141171201596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_9
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 45
+        width: 460
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da472eb53889fa0c0800000000000000
+      internalID: -4562260207553317715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_10
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 169
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72031c22cae0213f0800000000000000
+      internalID: -931666040432021465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_11
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 45
+        width: 452
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ed09419e51c3c40800000000000000
+      internalID: 5493289736301764208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 155
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126460685e4cc69e0800000000000000
+      internalID: -1626708875312478687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 139
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96822b8bf3125cd30800000000000000
+      internalID: 4451000364290943081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_14
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 155
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d68273033df516f0800000000000000
+      internalID: -714386570325358893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_15
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 139
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5e2b669b44b5170800000000000000
+      internalID: 8168197912249165226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_16
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 68
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d0337ec9a184980800000000000000
+      internalID: -8554558230994154107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_17
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b5539f881f10040800000000000000
+      internalID: 4612233064002968373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_18
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 72
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b77f83d9d3fac90800000000000000
+      internalID: -7156433537393525954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_19
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 71
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912ea676e3e9736a0800000000000000
+      internalID: -6469528348834209255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_20
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 68
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a326b4e16bb95470800000000000000
+      internalID: 8383938210450252709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_21
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30429ec6f750c3c0800000000000000
+      internalID: -4341373323245895620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_22
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 72
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8b47e6f9d3cf880800000000000000
+      internalID: -8575911835458029332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_23
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5434d78fd4c1d050800000000000000
+      internalID: 5823652257502344287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_24
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 68
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874566abf03485e20800000000000000
+      internalID: 3339492858526061688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_25
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfcb265c986adca0800000000000000
+      internalID: -5991361333593124943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_26
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 72
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e8a7e880cf4cac0800000000000000
+      internalID: -3835663868932485594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_27
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d09307d12cf6ce70800000000000000
+      internalID: 9135266116439085265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_28
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 68
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3633e0d3cbecb0dd0800000000000000
+      internalID: -2518692258710146205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_29
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb20d6dc96063d5d0800000000000000
+      internalID: -3038979316010646849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_30
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 72
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1950a897cfef090800000000000000
+      internalID: -7998678289226558977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_31
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 71
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114a889e31af25d50800000000000000
+      internalID: 6724712157046940689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_32
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 61
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690dc4d0a47fa3810800000000000000
+      internalID: 1745979702982267030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_33
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 61
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778492fc203714300800000000000000
+      internalID: 234595111502694519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_34
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 62
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d48fc7ac86c4e950800000000000000
+      internalID: 6477520471478731990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_35
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 58
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f401ebae95f818500800000000000000
+      internalID: 396755858538500175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_36
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 61
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ceaf6d35c1589420800000000000000
+      internalID: 2636947489406561987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_37
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 62
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6f167bb165ff330800000000000000
+      internalID: 3746808092036298404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_38
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 61
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e2bf26539cb1080800000000000000
+      internalID: -9215550981352509927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_39
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 62
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6dcdc70b07dc8b60800000000000000
+      internalID: 7749805501173321066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_40
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 61
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3dc6aced07921d0800000000000000
+      internalID: -3375042343556295741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_41
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 62
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f8f0f79618af060800000000000000
+      internalID: 6988040061922021277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_42
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 58
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf6247bde7b8b250800000000000000
+      internalID: 5960716338434568141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_43
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 61
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4657379c94eaffd0800000000000000
+      internalID: -2307280497870940597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_44
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 61
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a827256660e80520800000000000000
+      internalID: 2668629509605370021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet float dandi moma_45
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 61
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4454edc2488fbbf10800000000000000
+      internalID: 2286694482392794436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprite sheet float dandi moma_0: -3797527121212332056
+      Sprite sheet float dandi moma_1: -5186089440424677413
+      Sprite sheet float dandi moma_10: -931666040432021465
+      Sprite sheet float dandi moma_11: 5493289736301764208
+      Sprite sheet float dandi moma_12: -1626708875312478687
+      Sprite sheet float dandi moma_13: 4451000364290943081
+      Sprite sheet float dandi moma_14: -714386570325358893
+      Sprite sheet float dandi moma_15: 8168197912249165226
+      Sprite sheet float dandi moma_16: -8554558230994154107
+      Sprite sheet float dandi moma_17: 4612233064002968373
+      Sprite sheet float dandi moma_18: -7156433537393525954
+      Sprite sheet float dandi moma_19: -6469528348834209255
+      Sprite sheet float dandi moma_2: 1501699651252569447
+      Sprite sheet float dandi moma_20: 8383938210450252709
+      Sprite sheet float dandi moma_21: -4341373323245895620
+      Sprite sheet float dandi moma_22: -8575911835458029332
+      Sprite sheet float dandi moma_23: 5823652257502344287
+      Sprite sheet float dandi moma_24: 3339492858526061688
+      Sprite sheet float dandi moma_25: -5991361333593124943
+      Sprite sheet float dandi moma_26: -3835663868932485594
+      Sprite sheet float dandi moma_27: 9135266116439085265
+      Sprite sheet float dandi moma_28: -2518692258710146205
+      Sprite sheet float dandi moma_29: -3038979316010646849
+      Sprite sheet float dandi moma_3: 8584364130303236978
+      Sprite sheet float dandi moma_30: -7998678289226558977
+      Sprite sheet float dandi moma_31: 6724712157046940689
+      Sprite sheet float dandi moma_32: 1745979702982267030
+      Sprite sheet float dandi moma_33: 234595111502694519
+      Sprite sheet float dandi moma_34: 6477520471478731990
+      Sprite sheet float dandi moma_35: 396755858538500175
+      Sprite sheet float dandi moma_36: 2636947489406561987
+      Sprite sheet float dandi moma_37: 3746808092036298404
+      Sprite sheet float dandi moma_38: -9215550981352509927
+      Sprite sheet float dandi moma_39: 7749805501173321066
+      Sprite sheet float dandi moma_4: 206288398572952306
+      Sprite sheet float dandi moma_40: -3375042343556295741
+      Sprite sheet float dandi moma_41: 6988040061922021277
+      Sprite sheet float dandi moma_42: 5960716338434568141
+      Sprite sheet float dandi moma_43: -2307280497870940597
+      Sprite sheet float dandi moma_44: 2668629509605370021
+      Sprite sheet float dandi moma_45: 2286694482392794436
+      Sprite sheet float dandi moma_5: 4868425866245631663
+      Sprite sheet float dandi moma_6: 4254010182366800051
+      Sprite sheet float dandi moma_7: 2737325294134910899
+      Sprite sheet float dandi moma_8: 4694400141171201596
+      Sprite sheet float dandi moma_9: -4562260207553317715
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

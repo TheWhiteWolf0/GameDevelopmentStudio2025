@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: ef4c915a7701c0c4b9944c2af646319e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4827327840924882344
+    second: Sprite sheet idle dandi daughter_0
+  - first:
+      213: 2398398283958113464
+    second: Sprite sheet idle dandi daughter_1
+  - first:
+      213: -7278785729752149203
+    second: Sprite sheet idle dandi daughter_2
+  - first:
+      213: 5092285936137177419
+    second: Sprite sheet idle dandi daughter_3
+  - first:
+      213: -4693223666838337641
+    second: Sprite sheet idle dandi daughter_4
+  - first:
+      213: -164871431220585981
+    second: Sprite sheet idle dandi daughter_5
+  - first:
+      213: -4156595147711846888
+    second: Sprite sheet idle dandi daughter_6
+  - first:
+      213: -8562818991862255023
+    second: Sprite sheet idle dandi daughter_7
+  - first:
+      213: -2732143229228434575
+    second: Sprite sheet idle dandi daughter_8
+  - first:
+      213: 6510352848752943991
+    second: Sprite sheet idle dandi daughter_9
+  - first:
+      213: -7610784728702965783
+    second: Sprite sheet idle dandi daughter_10
+  - first:
+      213: -4399545812935222062
+    second: Sprite sheet idle dandi daughter_11
+  - first:
+      213: -8425692380517320370
+    second: Sprite sheet idle dandi daughter_12
+  - first:
+      213: 4325185283990056008
+    second: Sprite sheet idle dandi daughter_13
+  - first:
+      213: 8908226515044589442
+    second: Sprite sheet idle dandi daughter_14
+  - first:
+      213: -5870809332563185476
+    second: Sprite sheet idle dandi daughter_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 29
+        width: 257
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a55ea4581d1ef240800000000000000
+      internalID: 4827327840924882344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_1
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 42
+        width: 203
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4da313882d84120800000000000000
+      internalID: 2398398283958113464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_2
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 46
+        width: 170
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23d0f581fe8cfa90800000000000000
+      internalID: -7278785729752149203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_3
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 45
+        width: 202
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b498c2e241f6ba640800000000000000
+      internalID: 5092285936137177419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_4
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79705a6d0f15edeb0800000000000000
+      internalID: -4693223666838337641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_5
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 42
+        width: 202
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a9c7c8e4246bdf0800000000000000
+      internalID: -164871431220585981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_6
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816e5895cbec056c0800000000000000
+      internalID: -4156595147711846888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_7
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 45
+        width: 241
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152f412ae71ca2980800000000000000
+      internalID: -8562818991862255023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_8
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bb952653a751ad0800000000000000
+      internalID: -2732143229228434575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_9
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 45
+        width: 298
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7732f503c6b695a50800000000000000
+      internalID: 6510352848752943991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_10
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e721b7ec9f016690800000000000000
+      internalID: -7610784728702965783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_11
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 45
+        width: 378
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc50f6946ca1f2c0800000000000000
+      internalID: -4399545812935222062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_12
+      rect:
+        serializedVersion: 2
+        x: 3793
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49bc80db6de11b80800000000000000
+      internalID: -8425692380517320370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_13
+      rect:
+        serializedVersion: 2
+        x: 4076
+        y: 44
+        width: 331
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c69f79915260c30800000000000000
+      internalID: 4325185283990056008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_14
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 30
+        width: 469
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fd2ff41d060ab70800000000000000
+      internalID: 8908226515044589442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi daughter_15
+      rect:
+        serializedVersion: 2
+        x: 4664
+        y: 29
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0f5845402b68ea0800000000000000
+      internalID: -5870809332563185476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprite sheet idle dandi daughter_0: 4827327840924882344
+      Sprite sheet idle dandi daughter_1: 2398398283958113464
+      Sprite sheet idle dandi daughter_10: -7610784728702965783
+      Sprite sheet idle dandi daughter_11: -4399545812935222062
+      Sprite sheet idle dandi daughter_12: -8425692380517320370
+      Sprite sheet idle dandi daughter_13: 4325185283990056008
+      Sprite sheet idle dandi daughter_14: 8908226515044589442
+      Sprite sheet idle dandi daughter_15: -5870809332563185476
+      Sprite sheet idle dandi daughter_2: -7278785729752149203
+      Sprite sheet idle dandi daughter_3: 5092285936137177419
+      Sprite sheet idle dandi daughter_4: -4693223666838337641
+      Sprite sheet idle dandi daughter_5: -164871431220585981
+      Sprite sheet idle dandi daughter_6: -4156595147711846888
+      Sprite sheet idle dandi daughter_7: -8562818991862255023
+      Sprite sheet idle dandi daughter_8: -2732143229228434575
+      Sprite sheet idle dandi daughter_9: 6510352848752943991
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

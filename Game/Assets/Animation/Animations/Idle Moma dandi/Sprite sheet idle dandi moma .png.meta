@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 9bc25ed669a317e40b0d160beb79e0af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7565248160537954662
+    second: Sprite sheet idle dandi moma _0
+  - first:
+      213: -4708833996978719104
+    second: Sprite sheet idle dandi moma _1
+  - first:
+      213: 8415463662454616968
+    second: Sprite sheet idle dandi moma _2
+  - first:
+      213: -2780670040624879748
+    second: Sprite sheet idle dandi moma _3
+  - first:
+      213: 3884298815915522750
+    second: Sprite sheet idle dandi moma _4
+  - first:
+      213: -579039960711607691
+    second: Sprite sheet idle dandi moma _5
+  - first:
+      213: 5200820982894186255
+    second: Sprite sheet idle dandi moma _6
+  - first:
+      213: -5932587208524972559
+    second: Sprite sheet idle dandi moma _7
+  - first:
+      213: -5934638470051890867
+    second: Sprite sheet idle dandi moma _8
+  - first:
+      213: -8395415559562565522
+    second: Sprite sheet idle dandi moma _9
+  - first:
+      213: 5333036212658647486
+    second: Sprite sheet idle dandi moma _10
+  - first:
+      213: 3189877604432368050
+    second: Sprite sheet idle dandi moma _11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi moma _0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 44
+        width: 468
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669ca8e9e192df860800000000000000
+      internalID: 7565248160537954662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi moma _1
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 54
+        width: 467
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086fccf9d6cd6aeb0800000000000000
+      internalID: -4708833996978719104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi moma _2
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 169
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883b0dc2d9bb9c470800000000000000
+      internalID: 8415463662454616968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi moma _3
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 54
+        width: 458
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77abf6a4531969d0800000000000000
+      internalID: -2780670040624879748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi moma _4
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 169
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba7d14713dc7e530800000000000000
+      internalID: 3884298815915522750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi moma _5
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 54
+        width: 458
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a470f3936d6f7f0800000000000000
+      internalID: -579039960711607691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi moma _6
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 54
+        width: 467
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f4ec9f0270d2840800000000000000
+      internalID: 5200820982894186255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi moma _7
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 44
+        width: 468
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdb7d4bd573bada0800000000000000
+      internalID: -5932587208524972559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi moma _8
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 45
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49703a21cde3ada0800000000000000
+      internalID: -5934638470051890867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi moma _9
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 45
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e686c76870e7d7b80800000000000000
+      internalID: -8395415559562565522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi moma _10
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 45
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb130d50e20c20a40800000000000000
+      internalID: 5333036212658647486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet idle dandi moma _11
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 45
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b15a21d7c8b44c20800000000000000
+      internalID: 3189877604432368050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprite sheet idle dandi moma _0: 7565248160537954662
+      Sprite sheet idle dandi moma _1: -4708833996978719104
+      Sprite sheet idle dandi moma _10: 5333036212658647486
+      Sprite sheet idle dandi moma _11: 3189877604432368050
+      Sprite sheet idle dandi moma _2: 8415463662454616968
+      Sprite sheet idle dandi moma _3: -2780670040624879748
+      Sprite sheet idle dandi moma _4: 3884298815915522750
+      Sprite sheet idle dandi moma _5: -579039960711607691
+      Sprite sheet idle dandi moma _6: 5200820982894186255
+      Sprite sheet idle dandi moma _7: -5932587208524972559
+      Sprite sheet idle dandi moma _8: -5934638470051890867
+      Sprite sheet idle dandi moma _9: -8395415559562565522
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

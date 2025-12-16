@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: be6e07760a236a442bd42581f58f8e53
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3873264021145143367
+    second: Sprite sheet grow dandi moma copy_0
+  - first:
+      213: 1899902837467804837
+    second: Sprite sheet grow dandi moma copy_1
+  - first:
+      213: -4467837157611344088
+    second: Sprite sheet grow dandi moma copy_2
+  - first:
+      213: -2405644773200241684
+    second: Sprite sheet grow dandi moma copy_3
+  - first:
+      213: 1935541108218530808
+    second: Sprite sheet grow dandi moma copy_4
+  - first:
+      213: -2354206341090080258
+    second: Sprite sheet grow dandi moma copy_5
+  - first:
+      213: 2073854696335361838
+    second: Sprite sheet grow dandi moma copy_6
+  - first:
+      213: -672666780902523791
+    second: Sprite sheet grow dandi moma copy_7
+  - first:
+      213: 6862756340588989877
+    second: Sprite sheet grow dandi moma copy_8
+  - first:
+      213: -5568479352187658316
+    second: Sprite sheet grow dandi moma copy_9
+  - first:
+      213: -6581949029584780210
+    second: Sprite sheet grow dandi moma copy_10
+  - first:
+      213: -7795220281191529997
+    second: Sprite sheet grow dandi moma copy_11
+  - first:
+      213: 4322781594130674818
+    second: Sprite sheet grow dandi moma copy_12
+  - first:
+      213: 274494309191744659
+    second: Sprite sheet grow dandi moma copy_13
+  - first:
+      213: -939638753795355359
+    second: Sprite sheet grow dandi moma copy_14
+  - first:
+      213: 8268914382003831929
+    second: Sprite sheet grow dandi moma copy_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 29
+        width: 257
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74848a51b1990c530800000000000000
+      internalID: 3873264021145143367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_1
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 42
+        width: 203
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a47607809fcd5a10800000000000000
+      internalID: 1899902837467804837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_2
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 46
+        width: 170
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fe84ad6cd0ff1c0800000000000000
+      internalID: -4467837157611344088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_3
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 45
+        width: 202
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebdf9d03de6d9ed0800000000000000
+      internalID: -2405644773200241684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_4
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb088b026c6cda10800000000000000
+      internalID: 1935541108218530808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_5
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 42
+        width: 202
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef98a5f4ecd245fd0800000000000000
+      internalID: -2354206341090080258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_6
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2748dacbdfc7cc10800000000000000
+      internalID: 2073854696335361838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_7
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 45
+        width: 241
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c791070253aa6f0800000000000000
+      internalID: -672666780902523791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_8
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdcdd408886d3f50800000000000000
+      internalID: 6862756340588989877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_9
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 45
+        width: 298
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfd1c14889c8b2b0800000000000000
+      internalID: -5568479352187658316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_10
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e444fd1fa3838a4a0800000000000000
+      internalID: -6581949029584780210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_11
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 45
+        width: 378
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f188a18470d1d390800000000000000
+      internalID: -7795220281191529997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_12
+      rect:
+        serializedVersion: 2
+        x: 3793
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28471cfe4fa9dfb30800000000000000
+      internalID: 4322781594130674818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_13
+      rect:
+        serializedVersion: 2
+        x: 4076
+        y: 44
+        width: 331
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c7d30be133fc300800000000000000
+      internalID: 274494309191744659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_14
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 30
+        width: 469
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d46d6288bb5f2f0800000000000000
+      internalID: -939638753795355359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi moma copy_15
+      rect:
+        serializedVersion: 2
+        x: 4664
+        y: 29
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9740571e1d511c270800000000000000
+      internalID: 8268914382003831929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprite sheet grow dandi moma copy_0: 3873264021145143367
+      Sprite sheet grow dandi moma copy_1: 1899902837467804837
+      Sprite sheet grow dandi moma copy_10: -6581949029584780210
+      Sprite sheet grow dandi moma copy_11: -7795220281191529997
+      Sprite sheet grow dandi moma copy_12: 4322781594130674818
+      Sprite sheet grow dandi moma copy_13: 274494309191744659
+      Sprite sheet grow dandi moma copy_14: -939638753795355359
+      Sprite sheet grow dandi moma copy_15: 8268914382003831929
+      Sprite sheet grow dandi moma copy_2: -4467837157611344088
+      Sprite sheet grow dandi moma copy_3: -2405644773200241684
+      Sprite sheet grow dandi moma copy_4: 1935541108218530808
+      Sprite sheet grow dandi moma copy_5: -2354206341090080258
+      Sprite sheet grow dandi moma copy_6: 2073854696335361838
+      Sprite sheet grow dandi moma copy_7: -672666780902523791
+      Sprite sheet grow dandi moma copy_8: 6862756340588989877
+      Sprite sheet grow dandi moma copy_9: -5568479352187658316
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

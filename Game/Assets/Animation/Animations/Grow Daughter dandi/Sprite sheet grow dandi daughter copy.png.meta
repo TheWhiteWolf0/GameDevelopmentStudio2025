@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: db4eda9fb9ba6694ba9a994cdf6ff834
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8240846733514781893
+    second: Sprite sheet grow dandi daughter copy_0
+  - first:
+      213: 8569254242940086702
+    second: Sprite sheet grow dandi daughter copy_1
+  - first:
+      213: 4351721821265262422
+    second: Sprite sheet grow dandi daughter copy_2
+  - first:
+      213: 1888568007491380990
+    second: Sprite sheet grow dandi daughter copy_3
+  - first:
+      213: 59839849010499055
+    second: Sprite sheet grow dandi daughter copy_4
+  - first:
+      213: 3716182858583284722
+    second: Sprite sheet grow dandi daughter copy_5
+  - first:
+      213: 704128740126348320
+    second: Sprite sheet grow dandi daughter copy_6
+  - first:
+      213: -4706181593075251900
+    second: Sprite sheet grow dandi daughter copy_7
+  - first:
+      213: -7006234640763514852
+    second: Sprite sheet grow dandi daughter copy_8
+  - first:
+      213: -4743651590207675421
+    second: Sprite sheet grow dandi daughter copy_9
+  - first:
+      213: -269450749877837167
+    second: Sprite sheet grow dandi daughter copy_10
+  - first:
+      213: -8235200862570198766
+    second: Sprite sheet grow dandi daughter copy_11
+  - first:
+      213: -9108665911483750536
+    second: Sprite sheet grow dandi daughter copy_12
+  - first:
+      213: 6132430250890664781
+    second: Sprite sheet grow dandi daughter copy_13
+  - first:
+      213: 334627404376522790
+    second: Sprite sheet grow dandi daughter copy_14
+  - first:
+      213: -5960512243420808223
+    second: Sprite sheet grow dandi daughter copy_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 29
+        width: 257
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bc968ce81a2ad80800000000000000
+      internalID: -8240846733514781893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_1
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 42
+        width: 203
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9e374055b1ce670800000000000000
+      internalID: 8569254242940086702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_2
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 46
+        width: 170
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657f4d5a0fb646c30800000000000000
+      internalID: 4351721821265262422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_3
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 45
+        width: 202
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6e0b4c89a853a10800000000000000
+      internalID: 1888568007491380990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_4
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed0faf860894d000800000000000000
+      internalID: 59839849010499055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_5
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 42
+        width: 202
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb9046ee98829330800000000000000
+      internalID: 3716182858583284722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_6
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024df57cb5195c900800000000000000
+      internalID: 704128740126348320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_7
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 45
+        width: 241
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445844886c840beb0800000000000000
+      internalID: -4706181593075251900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_8
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10114007bad4ce90800000000000000
+      internalID: -7006234640763514852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_9
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 45
+        width: 298
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3647bf20a2b2eb0800000000000000
+      internalID: -4743651590207675421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_10
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192a11978f7b24cf0800000000000000
+      internalID: -269450749877837167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_11
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 45
+        width: 378
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219438c8270b6bd80800000000000000
+      internalID: -8235200862570198766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_12
+      rect:
+        serializedVersion: 2
+        x: 3793
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8772d400d94879180800000000000000
+      internalID: -9108665911483750536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_13
+      rect:
+        serializedVersion: 2
+        x: 4055
+        y: 44
+        width: 378
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b923a72d4ca1550800000000000000
+      internalID: 6132430250890664781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_14
+      rect:
+        serializedVersion: 2
+        x: 4290
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62049f1f9d5d4a400800000000000000
+      internalID: 334627404376522790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet grow dandi daughter copy_15
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 45
+        width: 352
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb398bd1b1084da0800000000000000
+      internalID: -5960512243420808223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprite sheet grow dandi daughter copy_0: -8240846733514781893
+      Sprite sheet grow dandi daughter copy_1: 8569254242940086702
+      Sprite sheet grow dandi daughter copy_10: -269450749877837167
+      Sprite sheet grow dandi daughter copy_11: -8235200862570198766
+      Sprite sheet grow dandi daughter copy_12: -9108665911483750536
+      Sprite sheet grow dandi daughter copy_13: 6132430250890664781
+      Sprite sheet grow dandi daughter copy_14: 334627404376522790
+      Sprite sheet grow dandi daughter copy_15: -5960512243420808223
+      Sprite sheet grow dandi daughter copy_2: 4351721821265262422
+      Sprite sheet grow dandi daughter copy_3: 1888568007491380990
+      Sprite sheet grow dandi daughter copy_4: 59839849010499055
+      Sprite sheet grow dandi daughter copy_5: 3716182858583284722
+      Sprite sheet grow dandi daughter copy_6: 704128740126348320
+      Sprite sheet grow dandi daughter copy_7: -4706181593075251900
+      Sprite sheet grow dandi daughter copy_8: -7006234640763514852
+      Sprite sheet grow dandi daughter copy_9: -4743651590207675421
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
