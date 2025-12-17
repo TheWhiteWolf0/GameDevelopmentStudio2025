@@ -14,92 +14,81 @@ public class SlowFall : MonoBehaviour
 
     [Header("FallDamage")]
     [SerializeField] private Transform groundCheck;
-    [SerializeField] private LayerMask groundLayer;
-    public float slowFallStamina = 25f;
-    public float maxSlowFallStamina = 25f;
+    [SerializeField] public LayerMask groundLayer;
+    public float slowFallStamina = 0f;
+    public float maxSlowFallStamina = 35f;
 
-    public bool isSlowFalling = false;
 
-    public bool hitGround = false;
 
     [Header("Input Settings")]
     public KeyCode slowFallKey = KeyCode.DownArrow;
 
-    [Header("Respawn")]
-    public GameObject playerTwo;
+    [Header("SlowFallBar")]
 
-    public Transform platerTwoRespawn;
+    //[Range(0, 4000)]
+    //static public float stamina;
+    //public float maxStamina = 2000;
 
+    public RectTransform uiBar;
 
+    float barWidth;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = normalGravity;
+
+        //slowfall stamina
+        barWidth = uiBar.anchorMax.x;
+        slowFallStamina = maxSlowFallStamina;
     }
 
     void Update()
     {
-        //Debug.Log(rb.linearVelocityY);
-        staminaSlowFall();
-        //FallDamage();
+        
+
 
         // Check if player is falling
         if (rb.linearVelocity.y < 0)
         {
             if (Input.GetKey(slowFallKey) && slowFallStamina > 0)
             {
+                slowFallStamina -= 3 * Time.deltaTime;
+
                 // Apply slowfall gravity
                 rb.gravityScale = slowFallGravity;
                 rb.linearDamping = slowFallLinearDamping;
 
-                //Debug.Log(rb.linearVelocityY);
-
-                isSlowFalling = true;
-
+                if(slowFallStamina <= 0)
+                {
+                    rb.gravityScale = normalGravity;
+                    rb.linearDamping = normalLinearDamping;  
+                }
             }
-            else
-            {
-                // Back to normal gravity
-                rb.gravityScale = normalGravity;
-                rb.linearDamping = normalLinearDamping;
 
-                isSlowFalling = false;
-            }
+
         }
         else
         {
             // Reset gravity when not falling
             rb.gravityScale = normalGravity;
-            isSlowFalling = false;
+            rb.linearDamping = normalLinearDamping;
+            //slowFallStamina = maxSlowFallStamina;
+            slowFallStamina += 10 * Time.deltaTime;
+
         }
+
+        //Slowfall Stamina
+        
+        slowFallStamina = ((slowFallStamina > maxSlowFallStamina) ? maxSlowFallStamina : (slowFallStamina < 0) ? 0 : slowFallStamina);
+
+        float x = ((slowFallStamina * (100f / maxSlowFallStamina)) * (1f / barWidth)) / 100f;
+
+        uiBar.anchorMax = new Vector2(x, uiBar.anchorMax.y);
     }
 
-    public void FallDamage()
-    {
-        if (rb.linearVelocityY <= -50f)
-        {
-            Debug.Log("Died to fall damage");
-            //playerTwo.transform.position = platerTwoRespawn.position;
-            
-        }
-    }
     private bool isGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, .4f, groundLayer);
-    }
-
-    public void staminaSlowFall()
-    {
-        if (isSlowFalling && slowFallStamina > 0)
-        {
-            slowFallStamina = slowFallStamina - 10 * Time.deltaTime;
-            Debug.Log( slowFallStamina);
-        }
-
-        if (isGrounded())
-        {
-            slowFallStamina = maxSlowFallStamina;
-        }
+        return Physics2D.OverlapCircle(groundCheck.position, .5f, groundLayer);
     }
 }

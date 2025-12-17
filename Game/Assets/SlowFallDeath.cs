@@ -27,9 +27,4 @@ public class SlowFallDeath : MonoBehaviour
 
         }
     }
-
-    public void thing6767()
-    {
-        _animator.SetBool("isDead", false);
-    }
 }
