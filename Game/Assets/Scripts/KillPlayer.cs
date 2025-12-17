@@ -12,6 +12,8 @@ public class KillPlayer : MonoBehaviour
     public GameObject rock;
     public Transform rockPoint;
 
+    [SerializeField] private Animator _animator;
+
     /*
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -32,25 +34,19 @@ public class KillPlayer : MonoBehaviour
     }
     */
 
-    private Rigidbody2D player2SlowFall;
-
-    void Start()
-    {
-        player2SlowFall = GetComponent<Rigidbody2D>();
-    }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("PlayerOne"))
         {
             playerOne.transform.position = respawnPoint.position;
+            _animator.SetBool("isDead", true);
         }
 
         if (other.gameObject.CompareTag("PlayerTwo"))
         {
             playerTwo.transform.position = respawnPoint.position;  
         }
-        
+
         if (other.gameObject.CompareTag("Box"))
         {
             rock.transform.position = rockPoint.position;

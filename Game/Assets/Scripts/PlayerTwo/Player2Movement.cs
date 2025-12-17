@@ -24,6 +24,9 @@ public class Player2Movement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
 
 
+    [SerializeField] private Animator _animator;
+
+
 
     private void Start()
     {
@@ -36,6 +39,29 @@ public class Player2Movement : MonoBehaviour
 
         horizontal = Input.GetAxisRaw("Horizontal2");
 
+        if(horizontal != 0)
+        {
+            _animator.SetBool("isRunning", true);
+        }
+
+        else
+        {
+            _animator.SetBool("isRunning", false);
+        }
+
+        if (rb.linearVelocityY < 0)
+        {
+            _animator.SetBool("isFloating", true);
+            _animator.SetBool("isRunning", false);
+        }
+
+        else
+        {
+            _animator.SetBool("isFloating", false); 
+        }
+
+
+
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (isGrounded() || (isJumping && remainingJumps > 0))
@@ -43,7 +69,6 @@ public class Player2Movement : MonoBehaviour
                 isJumping = true;
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
                 remainingJumps--;
-
             }
 
         }
@@ -69,6 +94,7 @@ public class Player2Movement : MonoBehaviour
     private bool isGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+    
     }
 
     private void flip()
@@ -81,6 +107,11 @@ public class Player2Movement : MonoBehaviour
             transform.localScale = localScale;
         }
 
+    }
+
+    public void thing6767()
+    {
+        _animator.SetBool("isDead", false);
     }
 
 }

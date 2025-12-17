@@ -34,7 +34,7 @@ public class Player1Movement : MonoBehaviour
 
     public bool canFlip = true;
 
-    [SerializeField] private Animator animator;
+    [SerializeField] private Animator _animator;
 
 
 
@@ -52,12 +52,12 @@ public class Player1Movement : MonoBehaviour
         
         if(horizontal != 0)
         {
-            animator.SetBool("isRunning", true);
+            _animator.SetBool("isRunning", true);
         }
 
         else
         {
-            animator.SetBool("isRunning", false);
+            _animator.SetBool("isRunning", false);
         }
 
         if (isGrounded() && !Input.GetKeyDown(KeyCode.W))
@@ -165,9 +165,9 @@ public class Player1Movement : MonoBehaviour
         
     }
 
-    public void sunBridge()
+    public void thingP16767()
     {
-        
+        _animator.SetBool("isDead", false);
     }
 
 }

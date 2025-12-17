@@ -187,7 +187,7 @@ Rigidbody2D:
   m_Mass: 0.25
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 20
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -198,7 +198,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 5
+  m_Constraints: 4
 --- !u!114 &7708021242944903137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee51fdd5ea3e79341be0ffa18b60ea91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeTillDestory: 15
+  timeTillDestory: 10
   targetScale: {x: 5, y: 1, z: 0}
   speed: 1.5
 --- !u!212 &6204239603512174801
