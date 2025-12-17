@@ -1,6 +1,5 @@
 using UnityEngine;
 using TMPro;
-using System.Net.NetworkInformation;
 
 public class SunBridge : MonoBehaviour
 {
@@ -14,19 +13,22 @@ public class SunBridge : MonoBehaviour
 
     public float timeLeft = 15f;
 
-    // Display/HUD
-    public TextMeshProUGUI sunCount;
-    public GameObject text;
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
 
     void Update()
     {
-        //sunCount.SetText(bridgeCount.ToString());
-
         HUD(bridgeCount);
         
 
         if (bridgeCount > 0 && Input.GetKeyDown(KeyCode.Q))
         {
+            audioManager.PlayerSFX(audioManager.sunBeam);
             PlaceBridge();
         }
 

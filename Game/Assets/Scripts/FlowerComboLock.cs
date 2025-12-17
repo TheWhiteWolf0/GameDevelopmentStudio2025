@@ -13,6 +13,14 @@ public class FlowerComboLock : MonoBehaviour
 
     public KeyCode Intreact;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Check if the colliding object is the player
@@ -58,6 +66,7 @@ public class FlowerComboLock : MonoBehaviour
     }
     private void toggleObj()
     {
+        audioManager.PlayerSFX(audioManager.plant);
         dissapearingObjOne.SetActive(!dissapearingObjOne.activeSelf);
         dissapearingObjTwo.SetActive(!dissapearingObjTwo.activeSelf);
         flower1.SetActive(!flower1.activeSelf);

@@ -26,6 +26,16 @@ public class Player2Movement : MonoBehaviour
 
     [SerializeField] private Animator _animator;
 
+    AudioManager audioManager;
+
+    public AudioSource walk;
+
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
 
 
     private void Start()
@@ -36,6 +46,19 @@ public class Player2Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
+        {
+            walk.enabled = true;
+        }
+
+        else
+        {
+            walk.enabled = false;
+        }
+
+
+
+
 
         horizontal = Input.GetAxisRaw("Horizontal2");
 
@@ -66,6 +89,7 @@ public class Player2Movement : MonoBehaviour
         {
             if (isGrounded() || (isJumping && remainingJumps > 0))
             {
+                audioManager.PlayerSFX(audioManager.jump);
                 isJumping = true;
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
                 remainingJumps--;

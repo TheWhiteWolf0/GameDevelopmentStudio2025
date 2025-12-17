@@ -36,6 +36,19 @@ public class Player1Movement : MonoBehaviour
 
     [SerializeField] private Animator _animator;
 
+    [Header("----- Audio -----")]
+
+    public AudioSource walk;
+    public AudioSource drag;
+    AudioManager audioManager;
+
+    public bool isWalk = false;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
 
 
     private void Start()
@@ -47,6 +60,17 @@ public class Player1Movement : MonoBehaviour
     }
     void Update()
     {
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            //audioManager.PlayerSFX(audioManager.walk);
+            walk.enabled = true;
+        }
+
+        else
+        {
+            walk.enabled = false;
+        }
+
 
         horizontal = Input.GetAxisRaw("Horizontal1");
         
@@ -57,6 +81,7 @@ public class Player1Movement : MonoBehaviour
 
         else
         {
+
             _animator.SetBool("isRunning", false);
         }
 
@@ -70,6 +95,7 @@ public class Player1Movement : MonoBehaviour
         {
             if (isGrounded() || (isJumping && remainingJumps > 0)) 
             {
+                audioManager.PlayerSFX(audioManager.jump);
                 isJumping = true;
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
                 remainingJumps--;
@@ -113,6 +139,7 @@ public class Player1Movement : MonoBehaviour
     private bool isGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+
     }
 
     private void flip()
@@ -135,6 +162,7 @@ public class Player1Movement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.E))
             {
+                //audioManager.PlayerSFX(audioManager.drag);
                 grabCheck.collider.gameObject.transform.parent = boxHolder;
                 grabCheck.collider.gameObject.transform.position = boxHolder.position;
                 rbBox = grabCheck.collider.gameObject.GetComponent<Rigidbody2D>();
@@ -146,6 +174,10 @@ public class Player1Movement : MonoBehaviour
                 //
 
                 canFlip = false;
+                
+                //
+
+                drag.enabled = true;
             }
 
             else
@@ -159,6 +191,10 @@ public class Player1Movement : MonoBehaviour
                 //
 
                 canFlip = true;
+
+                //
+
+                drag.enabled = false;
                 
             }
         }

@@ -33,6 +33,13 @@ public class SlowFall : MonoBehaviour
 
     float barWidth;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -53,6 +60,7 @@ public class SlowFall : MonoBehaviour
         {
             if (Input.GetKey(slowFallKey) && slowFallStamina > 0)
             {
+                //audioManager.PlayerSFX(audioManager.fallDeath);
                 slowFallStamina -= 3 * Time.deltaTime;
 
                 // Apply slowfall gravity

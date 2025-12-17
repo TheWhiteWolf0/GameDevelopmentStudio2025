@@ -10,10 +10,15 @@ public class FlowerScript : MonoBehaviour
     public GameObject dissapearingObj;
     public GameObject flower;
 
-
     public KeyCode Intreact;
 
-    //public GameObject leverRotate;
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
 
 
 
@@ -62,6 +67,7 @@ public class FlowerScript : MonoBehaviour
     }
     private void toggleObj()
     {
+        audioManager.PlayerSFX(audioManager.plant);
         dissapearingObj.SetActive(!dissapearingObj.activeSelf);
         flower.SetActive(!flower.activeSelf);
         flowerCount = flowerCount - 1;

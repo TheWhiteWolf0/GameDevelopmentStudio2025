@@ -30,33 +30,6 @@ public class JointCamerControl : MonoBehaviour
         }
     }
 
-
-
-
-    void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("PlayerOne"))
-        {
-            playerOneIn = false;
-            Debug.Log("PlayerOneIn is false");
-            staticCam.SetActive(false);
-            canvasBorder.SetActive(true);
-            playerOneCam.SetActive(true);
-            playerTwoCam.SetActive(true);
-
-        }
-
-        if (collision.gameObject.CompareTag("PlayerTwo"))
-        {
-            playerTwoIn = false;
-            Debug.Log("PlayerTwoIn is false");
-            staticCam.SetActive(false);
-            canvasBorder.SetActive(true);
-            playerTwoCam.SetActive(true);
-            playerOneCam.SetActive(true);
-        }
-    }
-
     void Update()
     {
         toggleStacticCamOn();
